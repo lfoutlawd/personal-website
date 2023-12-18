@@ -1,0 +1,124 @@
+body {
+  background-color: #252422;
+  color: white;
+}
+
+.navbar-container {
+  text-decoration: none;
+}
+nav {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+.ul-navbar {
+  display: flex;
+  justify-content: center;
+  font-family: Inter;
+  align-items: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: normal;
+}
+
+.wrapper {
+  justify-content: space-between;
+  display: flex;
+  font-size: 20px;
+  padding: 20px;
+  width: 800px;
+  height: 80px;
+}
+
+.ul-navbar > li {
+  list-style-type: none;
+  padding: 60px;
+  text-align: right;
+  line-height: 50%;
+}
+
+.ul-navbar > li > a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.li-navbar {
+  display: flex;
+  width: 103px;
+  height: 43px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.li-image-navbar {
+  width: 210px;
+  height: 75px;
+  flex-shrink: 0;
+}
+
+.alata-font {
+  color: #dddf6e;
+  font-family: Alata;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.alata-font-2 {
+  color: #fff;
+  font-family: Alata;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.content {
+  width: 606px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  line-height: normal;
+}
+
+.main-content {
+  display: flex;
+  width: 716px;
+  height: 244px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-left: 250px;
+  margin-top: 100px;
+}
+
+.ridoanaz {
+  margin-left: 693px;
+  margin-top: 71px;
+  width: 938px;
+  height: 843px;
+  flex-shrink: 0;
+}
+
+.name-bar {
+  font-family: Alata;
+  font-size: 15px;
+  flex-shrink: 0;
+  text-align: right;
+  margin-right: 15%;
+}
+
+.badge-navbar {
+  background-color: firebrick;
+}
